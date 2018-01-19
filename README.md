@@ -1,9 +1,9 @@
 # The Red Line
 ![Pinterest](https://i.imgur.com/S7hvUQQ.png "The Red Line")
 ## Organisation de l'équipe
-- Lead Tactics Producer : **Prénom**
-- Corporate Ideation Technician : **Prénom**
-- Legacy Factors Specialist : **Prénom**
+- Lead Tactics Producer : **Gaëtan**
+- Corporate Ideation Technician : **Thomas**
+- Legacy Factors Specialist : **Mehdi**
 ## Charte graphique
 - Polices : **Police** & **Police**.
 - Couleurs : Réutiliser les couleurs du logo.
