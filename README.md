@@ -7,6 +7,7 @@
 ## Charte graphique
 - Polices : **Police** & **Police**.
 - Couleurs : Réutiliser les couleurs du logo.
+- One Page v1 : https://thomaspnt.github.io/Village-Num-1/
 ## Description
 ### Le client
 Le Village n°1 (http://www.levillage1.be/) propose un accompagnement aux personnes handicapées afin de pouvoir les réinsérer professionnellement. Ils proposent des services aux entreprises ainsi qu'aux particuliers, ils offrent de la main d'oeuvre pour des services très variés comme entretien de jardin, titre service, service rénovation,...
@@ -27,7 +28,7 @@ Un grand manque de clarté et d'accessibilité. Trop d'informations qui sautent 
 - Le client demande également un système de forum.
 - Rendre le site accessible aux aveugles. Pouvoir utiliser le site les yeux bandés.
 #### Contenu
-- Garder ce qui semble cohérent. Le résultat doit être clair et accessible avant tout. 
+- Garder ce qui semble cohérent. Le résultat doit être clair et accessible avant tout.
 - Oublier la partie Multimédia et la partie Focus.
 - Garder le système de F.A.Q.
 #### Technologies
