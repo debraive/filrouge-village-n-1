@@ -5,7 +5,7 @@
 - Corporate Ideation Technician : **Thomas**
 - Legacy Factors Specialist : **Mehdi**
 ## Charte graphique
-- Polices : **Police** & **Police**.
+- Polices : **Asap** (voir issues).
 - Couleurs : Réutiliser les couleurs du logo.
 - One Page v1 : https://thomaspnt.github.io/Village-Num-1/
 ## Description
