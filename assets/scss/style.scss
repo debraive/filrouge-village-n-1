@@ -1,15 +1,17 @@
 /*--- Variables ---*/
 $font: 'Asap', sans-serif;
+$bleu-clair: #A5D8D3;
 
 /*--- Bloc Logo ---*/
 .logo {
 	text-align: center;
+	margin-bottom: 2%;
 }
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
 	height: 600px;
-	background-color: #A5D8D3;
+	background-color: $bleu-clair;
 	font-family: $font;
 }
 
@@ -23,25 +25,25 @@ $font: 'Asap', sans-serif;
 	padding-bottom: 5%;
 	font-family: $font;
 	color: white;
+	h4 {
+		margin-top: 2%;
+	}
 }
 
 /*--- Bloc Picto Valeur ---*/
 .valeur {
 	text-align: center;
 	margin: auto;
-	height: 150px;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	height: 100%;
 	font-family: $font;
 }
 
-.ecoute .pro {
+.valeurelem {
 	@extend .valeur;
-}
-
-.engagement .dynamisme {
-	@extend .valeur;
-	background-color: yellow;
+	padding: 3% 0;
+	&:nth-child(2n) {
+		background-color: $bleu-clair;
+	}
 }
 
 /*--- Bloc Métiers/Entreprise ---*/
@@ -49,7 +51,15 @@ $font: 'Asap', sans-serif;
 	height: 400px;
 	color: #2D9CDB;
 	text-align: center;
-	font-family: $font;
+	line-height: 10px;
+	h4 {
+		font-family: $font;
+		padding-top: 15%;
+		padding-bottom: 3%;
+	 	margin: auto;
+	  	font-size: 40px;
+	  	font-weight: bold;
+	}
 }
 
 .entreprise {
@@ -64,7 +74,11 @@ $font: 'Asap', sans-serif;
 
 /*--- Bloc Sponsors ---*/
 .sponsors {
-
+	text-align: center;
+	height: 200px;
+	img {
+		margin-left: 2%;
+	}
 }
 
 /*--- Bloc Newsletter ---*/

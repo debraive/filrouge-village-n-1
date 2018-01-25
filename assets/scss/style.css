@@ -2,7 +2,13 @@
 /*--- Variables ---*/
 /*--- Bloc Logo ---*/
 .logo {
+<<<<<<< HEAD
   text-align: center; }
+=======
+  text-align: center;
+  margin-bottom: 2%;
+}
+>>>>>>> 91312dfcaa92da054e17eff9c99718ac6aa6810f
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
@@ -19,12 +25,21 @@
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: "Asap", sans-serif;
+<<<<<<< HEAD
   color: white; }
+=======
+  color: white;
+}
+.intro h4 {
+  margin-top: 2%;
+}
+>>>>>>> 91312dfcaa92da054e17eff9c99718ac6aa6810f
 
 /*--- Bloc Picto Valeur ---*/
-.valeur, .ecoute .pro, .engagement .dynamisme {
+.valeur, .valeurelem {
   text-align: center;
   margin: auto;
+<<<<<<< HEAD
   height: 150px;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -32,13 +47,38 @@
 
 .engagement .dynamisme {
   background-color: yellow; }
+=======
+  height: 100%;
+  font-family: "Asap", sans-serif;
+}
+
+.valeurelem {
+  padding: 3% 0;
+}
+.valeurelem:nth-child(2n) {
+  background-color: #A5D8D3;
+}
+>>>>>>> 91312dfcaa92da054e17eff9c99718ac6aa6810f
 
 /*--- Bloc Métiers/Entreprise ---*/
 .metiers, .entreprise, .proximite {
   height: 400px;
   color: #2D9CDB;
   text-align: center;
+<<<<<<< HEAD
   font-family: "Asap", sans-serif; }
+=======
+  line-height: 10px;
+}
+.metiers h4, .entreprise h4, .proximite h4 {
+  font-family: "Asap", sans-serif;
+  padding-top: 15%;
+  padding-bottom: 3%;
+  margin: auto;
+  font-size: 40px;
+  font-weight: bold;
+}
+>>>>>>> 91312dfcaa92da054e17eff9c99718ac6aa6810f
 
 .entreprise {
   background-color: #4F4F4F; }
@@ -47,6 +87,14 @@
   background-color: #333333; }
 
 /*--- Bloc Sponsors ---*/
+.sponsors {
+  text-align: center;
+  height: 200px;
+}
+.sponsors img {
+  margin-left: 2%;
+}
+
 /*--- Bloc Newsletter ---*/
 .newsletter {
   height: 500px; }
