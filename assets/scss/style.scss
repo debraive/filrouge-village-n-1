@@ -85,23 +85,23 @@ $bleu-clair: #A5D8D3;
 .newsletter {
 	height: 500px;
 	.row {
-			.left, .right {
-				height: 100%;
-			}
-			.left {
-				margin-top: 2%;
-				text-align: center;
-				.col {
-					h4 {
-						font-size: 35px;
-						margin-bottom: 20px;
-					}
-					img {
-						height: 300px;
-						width: 500px;
-					}
+		.left, .right {
+			height: 100%;
+		}
+		.left {
+			margin-top: 2%;
+			text-align: center;
+			.col {
+				h4 {
+					font-size: 35px;
+					margin-bottom: 20px;
+				}
+				img {
+					height: 300px;
+					width: 500px;
 				}
 			}
+		}
 
 		.right {
 			margin-top: 5%;
