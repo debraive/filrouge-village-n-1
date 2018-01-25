@@ -12,7 +12,7 @@
 ### Le client
 Le Village n°1 (http://www.levillage1.be/) propose un accompagnement aux personnes handicapées afin de pouvoir les réinsérer professionnellement. Ils proposent des services aux entreprises ainsi qu'aux particuliers, ils offrent de la main d'oeuvre pour des services très variés comme entretien de jardin, titre service, service rénovation,...
 
-**Personne de contact : Mehdi**
+**Personne de contact : Thomas**
 ### Type de site
 Portail d'information/outil de communication.
 ### Public ciblé
