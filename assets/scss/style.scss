@@ -1,0 +1,81 @@
+/*--- Variables ---*/
+$font: 'Asap', sans-serif;
+
+/*--- Bloc Logo ---*/
+.logo {
+	text-align: center;
+}
+
+/*--- Bloc Carrousel ---*/
+.carrousel {
+	width: 100%;
+	height: 600px;
+	background-color: #A5D8D3;
+	font-family: $font;
+}
+
+/*--- Bloc Intro ---*/
+.intro {
+	width: 100%;
+	height: 300px;
+	background-color: #214452;
+	text-align: center;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: $font;
+	color: white;
+}
+
+/*--- Bloc Picto Valeur ---*/
+.valeur {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: 150px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: $font;
+}
+
+.ecoute .pro {
+	@extend .valeur;
+}
+
+.engagement .dynamisme {
+	@extend .valeur;
+	background-color: yellow;
+}
+
+/*--- Bloc Métiers/Entreprise ---*/
+.metiers {
+	width: 100%;
+	height: 400px;
+	color: #2D9CDB;
+	text-align: center;
+	font-family: $font;
+}
+
+.entreprise {
+	@extend .metiers;
+	background-color: #4F4F4F;
+}
+
+.proximite {
+	@extend .metiers;
+	background-color: #333333;
+}
+
+/*--- Bloc Sponsors ---*/
+.sponsors {
+
+}
+
+/*--- Bloc Newsletter ---*/
+.newsletter {
+
+}
+
+.footer {
+
+}
