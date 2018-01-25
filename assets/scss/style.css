@@ -3,11 +3,11 @@
 /*--- Bloc Logo ---*/
 .logo {
   text-align: center;
+  margin-bottom: 2%;
 }
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
-  width: 100%;
   height: 600px;
   background-color: #A5D8D3;
   font-family: "Asap", sans-serif;
@@ -15,7 +15,6 @@
 
 /*--- Bloc Intro ---*/
 .intro {
-  width: 100%;
   height: 300px;
   background-color: #214452;
   text-align: center;
@@ -25,29 +24,39 @@
   font-family: "Asap", sans-serif;
   color: white;
 }
+.intro h4 {
+  margin-top: 2%;
+}
 
 /*--- Bloc Picto Valeur ---*/
-.valeur, .ecoute .pro, .engagement .dynamisme {
+.valeur, .valeurelem {
   text-align: center;
   margin: auto;
-  width: 100%;
-  height: 150px;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  height: 100%;
   font-family: "Asap", sans-serif;
 }
 
-.engagement .dynamisme {
-  background-color: yellow;
+.valeurelem {
+  padding: 3% 0;
+}
+.valeurelem:nth-child(2n) {
+  background-color: #A5D8D3;
 }
 
 /*--- Bloc Métiers/Entreprise ---*/
 .metiers, .entreprise, .proximite {
-  width: 100%;
   height: 400px;
   color: #2D9CDB;
   text-align: center;
+  line-height: 10px;
+}
+.metiers h4, .entreprise h4, .proximite h4 {
   font-family: "Asap", sans-serif;
+  padding-top: 15%;
+  padding-bottom: 3%;
+  margin: auto;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .entreprise {
@@ -59,6 +68,14 @@
 }
 
 /*--- Bloc Sponsors ---*/
+.sponsors {
+  text-align: center;
+  height: 200px;
+}
+.sponsors img {
+  margin-left: 2%;
+}
+
 /*--- Bloc Newsletter ---*/
 
 /*# sourceMappingURL=style.css.map */
