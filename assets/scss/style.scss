@@ -8,7 +8,6 @@ $font: 'Asap', sans-serif;
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
-	width: 100%;
 	height: 600px;
 	background-color: #A5D8D3;
 	font-family: $font;
@@ -16,7 +15,6 @@ $font: 'Asap', sans-serif;
 
 /*--- Bloc Intro ---*/
 .intro {
-	width: 100%;
 	height: 300px;
 	background-color: #214452;
 	text-align: center;
@@ -31,7 +29,6 @@ $font: 'Asap', sans-serif;
 .valeur {
 	text-align: center;
 	margin: auto;
-	width: 100%;
 	height: 150px;
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -49,7 +46,6 @@ $font: 'Asap', sans-serif;
 
 /*--- Bloc Métiers/Entreprise ---*/
 .metiers {
-	width: 100%;
 	height: 400px;
 	color: #2D9CDB;
 	text-align: center;
@@ -73,9 +69,50 @@ $font: 'Asap', sans-serif;
 
 /*--- Bloc Newsletter ---*/
 .newsletter {
+	height: 500px;
 
+	.row {
+			.left, .right {
+				height: 100%;
+			}
+			.left {
+				margin-top: 2%;
+				text-align: center;
+				.col {
+					h4 {
+						font-size: 35px;
+						margin-bottom: 20px;
+					}
+					img {
+						height: 300px;
+						width: 500px;
+					}
+				}
+			}
+
+		.right {
+			margin-top: 5%;
+			form {
+				text-align: center;
+				input, select {
+					text-align: center;
+					font-size: 30px;
+					height: 45px;
+					width: 60%;
+					margin-top: 15px;
+					margin-bottom: 15px;
+				}
+				input.submit {
+					padding-bottom: 5%;
+					color: white;
+					background-color: #214452;
+				}
+			}
+		}
+	}
 }
 
 .footer {
-
+	height: 200px;
+	background-color: #214452;
 }
