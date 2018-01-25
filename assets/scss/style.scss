@@ -102,24 +102,23 @@ $bleu-clair: #A5D8D3;
 				}
 			}
 		}
-
-		.right {
-			margin-top: 5%;
-			form {
+	}
+	.right {
+		margin-top: 5%;
+		form {
+			text-align: center;
+			input, select {
 				text-align: center;
-				input, select {
-					text-align: center;
-					font-size: 30px;
-					height: 45px;
-					width: 60%;
-					margin-top: 15px;
-					margin-bottom: 15px;
-				}
-				input.submit {
-					padding-bottom: 5%;
-					color: white;
-					background-color: #214452;
-				}
+				font-size: 30px;
+				height: 45px;
+				width: 60%;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			input.submit {
+				padding-bottom: 5%;
+				color: white;
+				background-color: #214452;
 			}
 		}
 	}

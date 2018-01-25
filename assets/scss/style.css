@@ -77,18 +77,18 @@
     .newsletter .row .left .col img {
       height: 300px;
       width: 500px; }
-  .newsletter .row .right {
+  .newsletter .right {
     margin-top: 5%; }
-    .newsletter .row .right form {
+    .newsletter .right form {
       text-align: center; }
-      .newsletter .row .right form input, .newsletter .row .right form select {
+      .newsletter .right form input, .newsletter .right form select {
         text-align: center;
         font-size: 30px;
         height: 45px;
         width: 60%;
         margin-top: 15px;
         margin-bottom: 15px; }
-      .newsletter .row .right form input.submit {
+      .newsletter .right form input.submit {
         padding-bottom: 5%;
         color: white;
         background-color: #214452; }
