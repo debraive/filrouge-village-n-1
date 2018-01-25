@@ -7,7 +7,7 @@
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
-  height: 600px;
+  min-height: 600px;
   background-color: #A5D8D3;
   font-family: "Asap", sans-serif; }
 

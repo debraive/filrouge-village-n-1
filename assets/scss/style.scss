@@ -10,7 +10,7 @@ $bleu-clair: #A5D8D3;
 
 /*--- Bloc Carrousel ---*/
 .carrousel {
-	height: 600px;
+	min-height: 600px;
 	background-color: $bleu-clair;
 	font-family: $font;
 }
