@@ -5,9 +5,9 @@ $pass = lovelace7;
 $dbh = new PDO('mysql:host=sql206.epizy.com;dbname=epiz_21482364_village', $user, $pass);
 if(
     ( isset($_POST["Name"]) ) && ( isset($_POST["Organisation"]) ) && ( isset($_POST["Mail"]) )
-  ) {
+  ) { echo "oui";
     try {
-     $action = $dbh->exec('INSERT INTO epiz_21482364_village (nom d\'utilisateur, organisation, mail) VALUES ('.$_POST["Name"].', '.$_POST["Organisation"].', '.$_POST["Mail"].')');
+     $dbh->execute('INSERT INTO newsletter (`nom d\'utilisateur`, `organisation`, `mail`) VALUES (`'.$_POST["Name"].'`, `'.$_POST["Organisation"].'`, `'.$_POST["Mail"].'`)');
     }
   }
 ?>
