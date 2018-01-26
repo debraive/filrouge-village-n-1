@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<?php
+$user = epiz_21482364;
+$pass = lovelace7;
+$dbh = new PDO('mysql:host=sql206.epizy.com;dbname=epiz_21482364_village', $user, $pass);
+if(
+    ( isset($_POST["Name"]) ) && ( isset($_POST["Organisation"]) ) && ( isset($_POST["Mail"]) )
+  ) { echo "oui";
+    try {
+     $dbh->execute('INSERT INTO newsletter (`nom d\'utilisateur`, `organisation`, `mail`) VALUES (`'.$_POST["Name"].'`, `'.$_POST["Organisation"].'`, `'.$_POST["Mail"].'`)');
+    }
+  }
+?>
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -125,7 +137,7 @@
     </div>
     <div class="col-md-6 right">
       <div class="row">
-        <form action="">
+        <form action="./index.php" method="post">
           <input type="text" name="Name" placeholder="Nom complet">
           <select class="select" name="Organisation">
             <option value="Entreprise">Entreprise</option>
