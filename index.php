@@ -113,7 +113,7 @@
     </div>
     <div class="col-md-6 right">
       <div class="row">
-        <form action="">
+        <form action="./index.php">
           <input type="text" name="Name" placeholder="Nom complet">
           <select class="select" name="Organisation">
             <option value="Entreprise">Entreprise</option>
