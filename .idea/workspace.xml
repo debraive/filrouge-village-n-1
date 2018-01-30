@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="820e0fa1-1ad3-4532-b991-f34e53b8b7d8" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Layout/Balsa/Landing Page.bmpr" afterPath="$PROJECT_DIR$/waiting_page/Layout/Balsa/Landing Page.bmpr" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Layout/Figma/Landing Page Village.fig" afterPath="$PROJECT_DIR$/waiting_page/Layout/Figma/Landing Page Village.fig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Layout/Figma/Landing Page Village.pdf" afterPath="$PROJECT_DIR$/waiting_page/Layout/Figma/Landing Page Village.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Layout/Figma/Landing Page Village.png" afterPath="$PROJECT_DIR$/waiting_page/Layout/Figma/Landing Page Village.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Layout/Goutière 12.png" afterPath="$PROJECT_DIR$/waiting_page/Layout/Goutière 12.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/dynamic.svg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/dynamic.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/engagement.svg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/engagement.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/listening.svg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/listening.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/professionnal.svg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/professionnal.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/respect.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/respect.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/icons/respect.svg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/icons/respect.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/allibert.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/allibert.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/allibert.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/allibert.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/artisane.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/artisane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/artisane.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/artisane.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/coca.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/coca.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/colgate-palmolive.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/colgate-palmolive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/colruyt.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/colruyt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/securex.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/securex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/partenaires/stef.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/partenaires/stef.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/plan.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/plan.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/activites-industrielles.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/activites-industrielles.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/activites-industrielles2.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/activites-industrielles2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/activites-industrielles3.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/activites-industrielles3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/batiment.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/batiment.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/jardinage1.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/jardinage1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/jardinage2.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/jardinage2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/jardinage3.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/jardinage3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/renovation.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/renovation.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/renovation1.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/renovation1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/renovation2.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/renovation2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/taxisocial.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/taxisocial.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/titreService1.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/titreService1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/services/titreService2.jpg" afterPath="$PROJECT_DIR$/waiting_page/assets/img/services/titreService2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/village1.png" afterPath="$PROJECT_DIR$/waiting_page/assets/img/village1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/waiting_page/assets/js/jquery-3.3.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/waiting_page/assets/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/style.css" afterPath="$PROJECT_DIR$/waiting_page/assets/scss/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/style.css.map" afterPath="$PROJECT_DIR$/waiting_page/assets/scss/style.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/style.scss" afterPath="$PROJECT_DIR$/waiting_page/assets/scss/style.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batiment.jpg" afterPath="$PROJECT_DIR$/waiting_page/batiment.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/export/DataBase/village1.sql" afterPath="$PROJECT_DIR$/waiting_page/export/DataBase/village1.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/export/Landing Page Balsamiq.png" afterPath="$PROJECT_DIR$/waiting_page/export/Landing Page Balsamiq.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/export/Landing Page Village.png" afterPath="$PROJECT_DIR$/waiting_page/export/Landing Page Village.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/export/balsamiq.json" afterPath="$PROJECT_DIR$/waiting_page/export/balsamiq.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/waiting_page/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="dynamic.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/dynamic.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="respect.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/respect.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="respect.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/respect.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listening.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/listening.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engagement.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/engagement.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="professionnal.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/professionnal.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plan.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/plan.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batiment.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/services/batiment.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waiting_page/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+              <folding>
+                <marker date="1517317002317" expanded="true" signature="302:453" ph="INSERT INTO newsletter... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batiment.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/waiting_page/batiment.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/waiting_page/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="633" />
+    <option name="y" value="14" />
+    <option name="width" value="1346" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="filrouge-village-n-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filrouge-village-n-1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragoon\www\filrouge-village-n-1\waiting_page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="820e0fa1-1ad3-4532-b991-f34e53b8b7d8" name="Default" comment="" />
+      <created>1517316844881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517316844881</updated>
+      <workItem from="1517316846169" duration="152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="633" y="14" width="1346" height="1001" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/dynamic.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/respect.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/respect.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/listening.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/engagement.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/icons/professionnal.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/plan.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/assets/img/services/batiment.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <folding>
+            <marker date="1517317002317" expanded="true" signature="302:453" ph="INSERT INTO newsletter... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting_page/batiment.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+  </component>
+</project>
