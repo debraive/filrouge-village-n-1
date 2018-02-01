@@ -14,6 +14,11 @@ class QuiSommesNous extends Component {
               <h2>Services Aux Particuliers</h2>
               <ul>
                   <li>
+                      <Link to={`${match.url}/QSM`}>
+                          Qui sommes nous?
+                      </Link>
+                  </li>
+                  <li>
                       <Link to={`${match.url}/Historique`}>
                           Historique
                       </Link>
