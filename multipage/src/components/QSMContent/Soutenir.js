@@ -5,7 +5,7 @@ class Soutenir extends Component {
     render() {
         return (
             <div>
-                <h1>NOUS SOUTENIR</h1>
+                <h2>NOUS SOUTENIR</h2>
                 <p>En faisant un don, vous nous aidez dans nos actions auprès des personnes handicapées.
                 Tout don à partir de € 40,00 (par année) versé au Village n°1 Entreprises est déductible fiscalement.
                 Une attestation d’exonération fiscale à joindre à la déclaration d’impôts est envoyée au donateur en temps utile.

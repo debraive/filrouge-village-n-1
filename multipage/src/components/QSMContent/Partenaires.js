@@ -5,7 +5,7 @@ class Partenaires extends Component {
     render() {
         return (
             <div>
-              <h1>Nos partenaires</h1>
+              <h2>Nos partenaires</h2>
               <p>Le Village compte, parmi ses partenaires, de nombreuses associations, institutions et entreprises à vocation sociale.
               <br/>
               Avec le soutient de :</p>

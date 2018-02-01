@@ -5,8 +5,8 @@ class Historique extends Component {
     render() {
         return (
             <div>
-                <h1>Historique</h1>
-                <h2>Il était une fois</h2>
+                <h2>Historique</h2>
+                <h3>Il était une fois</h3>
                 <h3>1963 - 1977</h3>
                 <p>En décembre 1963, des parents de personnes handicapées fondent le Village n°1. L’initiative répond à une inquiétude grandissante : « que deviendront nos enfants quand nous ne serons plus là ? ». Dans les années '60, les alternatives au home ou à la famille sont rares. Au départ d’une grande ferme en Brabant wallon, le Village se développe autour de deux axes principaux : des ateliers de travail adapté et des maisons d’accueil pour personnes handicapées. Les initiateurs du Village n°1 se sont inspirés du « Botton Village », petit village anglais où travaillent depuis 1955, des personnes atteintes de handicap et des accompagnateurs.
                 En Belgique, la législation évolue et ouvre de nouveaux horizons. La loi du 16 avril 1963 instaure le Fonds national de reclassement social des handicapés. Le Fonds prévoit un système d’emploi pour les personnes handicapées via des ateliers protégés. En 1967, un arrêté royal institue le Fonds 81. Les instituts médico-pédagogiques (centres de jour et homes d'hébergement)seront désormais reconnus et subsidiés.

@@ -5,7 +5,7 @@ class Juridique extends Component {
     render() {
         return (
             <div>
-              <h1>Entités Juridiques</h1>
+              <h2>Entités Juridiques</h2>
               <p>L’organisation juridique du Village n°1 ENTREPRISES est subdivisée en plusieurs entités : une associations sans but lucratif et trois sociétés anonymes à finalité sociale. Chaque entité a ses spécificités mais elles travaillent toutes à des objectifs similaires et convergents.
               <br/>
               Village n°1 ENTREPRISES est une organisation unique qui défend des valeurs communes et assure des missions homogènes.</p>

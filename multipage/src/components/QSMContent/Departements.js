@@ -5,8 +5,8 @@ class Departements extends Component {
     render() {
         return (
             <div>
-                <h1>Départements</h1>
-                <h2>Direction :</h2>
+                <h2>Départements</h2>
+                <h3>Direction :</h3>
                 <ul>
                   <li>Direction Générale : Nathalie Claes</li>
                   <li>Direction Administrative & Financière : Frédéric Soupart</li>

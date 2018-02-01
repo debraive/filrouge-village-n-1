@@ -5,7 +5,7 @@ class Renovation extends Component {
     render() {
         return (
             <div>
-                <h1> Service Rénovation</h1>
+                <h2> Service Rénovation</h2>
                 <h3> Dans notre Service rénovation pour entreprises, nos techniciens sont là pour vous aider dans vos
                     travaux
                 </h3>

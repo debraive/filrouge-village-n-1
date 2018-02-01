@@ -11,7 +11,7 @@ class QuiSommesNous extends Component {
       const match = this.props.match;
       return (
           <div>
-              <h2>Services Aux Particuliers</h2>
+              <h2>Qui sommes nous?</h2>
               <ul>
                   <li>
                       <Link to={`${match.url}/QSM`}>

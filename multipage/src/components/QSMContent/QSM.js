@@ -5,7 +5,7 @@ class QSM extends Component {
     render() {
         return (
             <div>
-                <h1> Village n°1 Entreprises</h1>
+                <h2> Village n°1 Entreprises</h2>
                 <h3>Notre Mission</h3>
                 <p>Soutenir les personnes porteuses de handicap ou exclues du circuit traditionnel du travail en leur offrant un emploi de qualité et un accompagnement adapté, visant l'épanouissement dans le travail et la réinsertion dans le circuit traditionnel. Offrir des services de qualité dans de nombreux domaines aux entreprises et aux particuliers qui sont désireux de participer à notre mission.</p>
                 <h3>Notre Vision</h3>
