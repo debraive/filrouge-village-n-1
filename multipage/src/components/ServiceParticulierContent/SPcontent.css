@@ -1,0 +1,11 @@
+.titre{
+  font-family: 'Open Sans ', sans serif';
+  fontSize:49px;
+}
+.menuSide{
+  float: left;
+  width: 30%;
+}
+.content{
+  width: 70%;
+}
