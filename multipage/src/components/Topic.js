@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Renovation from "./ServicesEntrepriseContent/Renovation"
 import Cleaning from "./ServicesEntrepriseContent/Cleaning";
-import SubMenu from "./ServicesEntrepriseContent/SubMenu";
+import SubMenu from "./SubCategoriesMenus/SubMenu";
 
 class Topic extends Component {
 
