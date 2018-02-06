@@ -12,7 +12,7 @@ import {
 const App = () => (
     <Router>
         <div>
-            <ul>
+            <ul style={menuStyle}>
                 <li><Link to="/">Accueil</Link></li>
                 <li><Link to="/qui-sommes-nous">Qui Sommes Nous</Link></li>
                 <li><Link to="/services-aux-entreprises">Services Aux Entreprises</Link></li>
@@ -28,5 +28,11 @@ const App = () => (
         </div>
     </Router>
 );
+
+const menuStyle = {
+    display:'flex',
+    listStyle:'none',
+    position:'relative',
+}
 
 export default App

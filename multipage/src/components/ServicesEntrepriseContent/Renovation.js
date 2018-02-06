@@ -3,7 +3,7 @@ import React,{Component} from "react"
 class Renovation extends Component {
     render() {
         return (
-            <div>
+            <div style={container}>
                 <h1> Service Rénovation</h1>
                 <h3> Dans notre Service rénovation pour entreprises, nos techniciens sont là pour vous aider dans vos
                     travaux
@@ -26,4 +26,7 @@ class Renovation extends Component {
     }
 }
 
+const container = {
+    maxWidth:'600px',
+};
 export default Renovation;

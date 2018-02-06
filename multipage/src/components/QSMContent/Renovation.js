@@ -4,7 +4,7 @@ import React from "react"
 class Renovation extends Component {
     render() {
         return (
-            <div>
+            <div style="backgroundColor:red">
                 <h2> Service Rénovation</h2>
                 <h3> Dans notre Service rénovation pour entreprises, nos techniciens sont là pour vous aider dans vos
                     travaux
@@ -26,5 +26,6 @@ class Renovation extends Component {
         )
     }
 }
+
 
 export default Renovation;
