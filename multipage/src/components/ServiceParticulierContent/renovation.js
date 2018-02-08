@@ -5,7 +5,6 @@ import MenuParti from './menu.js'
 class Renovation extends Component {
   render(){
     return (<div style={containerStyle}>
-                <MenuParti match={this.props.match}  />
                 <div style={container}>
                   <h1 className="subtitle">Service de rénovation
                     <div className="underline"></div>

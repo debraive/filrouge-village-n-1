@@ -1,21 +1,31 @@
 import React, {Component} from "react";
-import {Route,Link} from 'react-router-dom';
+import {Route,Link,NavLink} from 'react-router-dom';
 
 class MenuParti extends Component {
   constructor(props){
     super(props);
   }
+  linksArray() {
+      let match = this.props.match;
+      let tab = [
+          {url: '/services-aux-particuliers/jardin', title: 'Entretien de jardins'},
+          {url: '/services-aux-particuliers/renovation', title: 'Service de rénovation'},
+          {url: '/services-aux-particuliers/taxi-social', title: 'Taxi social'},
+          {url: '/services-aux-particuliers/Zones-desservies', title: 'Zones desservies'}
+      ];
+
+      return (
+          tab.map((e, i) => <li>
+              <NavLink key={i} to={e.url} replace>{e.title} </NavLink></li>)
+      )
+  }
   render() {
-  return (<div >
-            <div style={subMenuStyle}>
-              <Link to={this.props.match.url+"/jardin"}>Entretien de jardins</Link>
-              <Link to={this.props.match.url+"/renovation"}>Service de rénovation</Link>
-              <Link to={this.props.match.url+"/taxi-social"}>Taxi social</Link>
-              <Link to={this.props.match.url+"/titres-services"}>titres-services</Link>
-              <Link to={this.props.match.url+"/Zones-desservies"}>Zones desservies</Link>
+    return (<div >
+              <div >
+              {this.linksArray()}
+              </div>
             </div>
-          </div>
-            );
+              );
   }
 }
 const jaune={

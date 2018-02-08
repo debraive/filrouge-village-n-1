@@ -1,35 +1,33 @@
-import {Component} from "react"
-import React from "react"
-import {Route,Link} from 'react-router-dom'
-import  Jardin from './ServiceParticulierContent/jardin.js'
+import {Component} from "react";
+import React from "react";
+import {Route,Link} from 'react-router-dom';
+import TopicParticuler from './ServiceParticulierContent/topicparticuler.js';
 import MenuParti from './ServiceParticulierContent/menu'
-import Renovation from './ServiceParticulierContent/renovation.js';
-import Taxi from './ServiceParticulierContent/taxi.js';
-import Zone from './ServiceParticulierContent/zone.js';
+
 class ServiceP extends Component {
     render() {
+        var match = this.props.match
         return (
             <div>
-                <p>Aux Particuliers</p>
-
                 <Route exact path={this.props.match.url} component={()=>{
-                    return (<div >
-                            <div style={containerStyle}>
-                              <h1 >Services aux Particuliers</h1>
-                              <p>
-                                Le Village n°1 offre des services de proximité aux particuliers. <br/>
-                                Nos travailleurs sont formés pour prendre soin de vos maisons, textiles et jardins.<br/>
-                                Allégez vos tâches quotidiennes, confiez-les nous !
-                              </p>
-                              <MenuParti  match={this.props.match} />
+                    return (<div className="se_menu">
+                            <div className="se_container">
+                                <div className="img_container"/>
+                                <div className="right_menu se_menu">
+                                    <h2 className="category_title">Services aux Particuliers</h2>
+                                    <p className="text">
+                                      Le Village n°1 offre des services de proximité aux particuliers. <br/>
+                                      Nos travailleurs sont formés pour prendre soin de vos maisons, textiles et jardins.<br/>
+                                      Allégez vos tâches quotidiennes, confiez-les nous !
+                                    </p>
+                                  <div className="category_menu">
+                                  <MenuParti  match={this.props.match} />
+                                  </div>
+                                </div>
                             </div>
-                            <img className={"sideImage"} href=""/>
                           </div>)
                 }} />
-                <Route exact path={this.props.match.url+"/jardin"} component={Jardin} />
-                <Route exact path={this.props.match.url+"/renovation"} component={Renovation}/>
-                <Route exact path={this.props.match.url+"/taxi-social"} component={Taxi}/>
-                <Route exact path={this.props.match.url+"/Zones-desservies"} component={Zone}/>
+                <Route path={`${match.url}/:topicId`} component={TopicParticuler}/>
             </div>
 
         )

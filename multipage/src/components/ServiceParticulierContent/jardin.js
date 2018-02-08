@@ -6,7 +6,6 @@ class Jardin extends Component{
   render() {
       return (
         <div style={containerStyle}>
-          <MenuParti match={this.props.match}  />
           <div style={container}>
           <h1>Jardins</h1>
           <div >
