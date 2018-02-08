@@ -9,27 +9,22 @@ class ServiceE extends Component {
     render() {
         const match = this.props.match;
         return (
-            <div >
+            <div className="se_main_container">
                 <Route exact path={match.url} render={() => (
-                    <div>
-                        <div>
+                    <div className="se_container">
+                        <div className="img_container"/>
+                        <div className="leftMenu">
+
                             <SEMenu match={match}/>
+
                         </div>
-                        <h3>PERFORMANCE ÉCONOMIQUE ET ACTION SOCIALE</h3>
-                        <p>Nos entreprises vous offrent des services compétitifs et personnalisés à grande échelle.
-                            Travailler avec le Village n°1, c'est aussi faire un choix éthique.</p>
                     </div>
                 )}/>
-                    <Route path={`${match.url}/:topicId`} component={Topic}/>
+                <Route path={`${match.url}/:topicId`} component={Topic}/>
             </div>
         )
     }
 }
-
-const contentStyle = {
-    backgroundColor: 'yellow'
-};
-
 
 export default ServiceE;
 

@@ -1,36 +1,49 @@
 import {Component} from "react"
 import React from "react"
-import {Link} from 'react-router-dom'
+import {NavLink, NavNavLink} from 'react-router-dom'
+
+
+const oddEvent = (match, location) => {
+    console.log(this);
+}
 
 const SEMenu = ({match}) => (
+
     <div>
-        <h2>Services Aux Entreprises</h2>
-        <ul>
+        <h2 className="category_title">Services Aux Entreprises</h2>
+        <div className="text">
+            <p>Nos entreprises vous offrent des services compétitifs et personnalisés à grande
+                échelle.
+                Travailler avec le Village n°1, c'est aussi faire un choix éthique.</p>
+        </div>
+        <ul className="category_menu">
             <li>
-                <Link
-                    to={`${match.url}/Activite_Industrielles`} replace>
+                <NavLink activeStyle={{fontWeight: 'bold', color: 'red'}} to={`${match.url}/Activite_Industrielles`}
+                         replace>
                     Activités industrielles
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link to={`${match.url}/Installations`} replace>
+                <NavLink activeStyle={{fontWeight: 'bold', color: 'red'}} to={`${match.url}/Installations`} replace>
                     Installations industrielles
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link to={`${match.url}/Back_Office_Services`} replace>
+                <NavLink activeStyle={{fontWeight: 'bold', color: 'red'}} to={`${match.url}/Back_Office_Services`}
+                         replace>
                     Back Office Services
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link to={`${match.url}/Renovation`} replace>
+                <NavLink activeStyle={{fontWeight: 'bold', color: 'red'}} to={`${match.url}/Renovation`} replace>
                     Rénovation
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link to={`${match.url}/Cleaning`} replace>
+                <NavLink isActive={oddEvent} activeStyle={{fontWeight: 'bold', color: 'red'}}
+                         to={`${match.url}/Cleaning`} replace>
                     Cleaning
-                </Link>
+                </NavLink>
             </li>
         </ul>
     </div>

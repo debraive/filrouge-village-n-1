@@ -22,8 +22,8 @@ class Topic extends Component {
     render() {
         const match = this.props.match;
         return (
-            <div style={containerStyle}>
-                <div style={subMenuStyle}>
+            <div className="topic">
+                <div className="submenu">
                     <SubMenu match={match}/>
                 </div>
                 <div>
@@ -36,23 +36,7 @@ class Topic extends Component {
 
 export default Topic;
 
-const containerStyle = {
-    display: 'flex',
-    flexDirection: "row",
-    margin: '0 auto',
-    position: 'relative',
-    alignItems: 'center',
-    justifyContent: 'center',
-    maxWidth: '860px',
-    lineHeight: "160%",
-};
 
 
-const subMenuStyle = {
-    position: 'absolute',
-    left: '-150px',
-    top:'50vh',
-    transform:'translateY(-50%)',
-    width: '180px'
-};
+
 

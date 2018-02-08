@@ -1,12 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:600');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background: #FCFCFC;
+    font-family: 'Lato', sans-serif;
+    background: #fafafa;
 }
 
-.subtitle{
+.se_container {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.se_main_container {
+    background: #FAFAFA;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.se_container .leftMenu {
+    margin-left: 50px;
+}
+
+.se_container .img_container {
+    width: 50%;
+    height: 100%;
+    background: url('/images/pexels-photo-630839.jpeg') center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.se_container .img_container .text {
+    bottom: 50px;
+    background: rgba(245, 198, 98, 0.9);
+    max-width: 550px;
+}
+
+.se_container .img_container p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 28px;
+}
+
+.category_title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+}
+
+.category_menu {
+    margin-top: 30px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitle {
     position: relative;
+}
+
+.links li:visited {
+    color: orange;
 }
 
 .underline {
@@ -15,10 +73,111 @@ body {
     background: rgba(242, 178, 42, 0.6);
     width: 110px;
     z-index: -10;
-    bottom:-2px;
+    bottom: -2px;
+}
+
+nav {
+    background: white;
+    padding:10px;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.nav_content .logo {
+    height: 40px;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 640px;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    max-width: 860px;
+    line-height: 160%;
+}
+
+.topic .submenu {
+    position: absolute;
+    left: -150px;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 180px;
+}
+
+.submenu .content .bg{
+    position: absolute;
+    background: rgba(242, 178, 42, 0.81);
+    height:100%;
+    width:200px;
+    z-index: -5;
+    top:32px;
+}
+
+.submenu .content .bg li a:-webkit-any-link{
+    font-size:50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .topic .submenu {
+        left: 0;
+        top: 0;
+        position: relative;
+        transform: translateY(0);
+        text-align: center;
+    }
+
+    .topic {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        max-width: 860px;
+        line-height: 160%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav .logo {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .links {
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
