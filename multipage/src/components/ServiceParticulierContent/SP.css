@@ -2,6 +2,9 @@
   font-family: 'Open Sans ', sans serif;
   font-size:49px;
 }
+.titre::before{
+  content:'';
+}
 .menuSide{
   width: 30%;
 }
