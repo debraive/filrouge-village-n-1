@@ -13,7 +13,10 @@ class Cleaning extends Component {
                 <div style={imgContainer}>
                     <img style={imageStyle} src="/images/renovation.jpeg" alt=""/>
                 </div>
-                <h3>Nos services</h3>
+                <h3 className="subtitle">
+                    Nos Services
+                    <div className="underline"></div>
+                </h3>
                 <ul>
                     <li>- Nettoyage de bureaux, communs d'immeuble, show-rooms, espaces de stockage, commerces
                         pharmacies
@@ -43,13 +46,14 @@ class Cleaning extends Component {
         )
     }
 }
+
 const container = {
-    maxWidth:'600px',
+    maxWidth: '600px',
 };
 
 const imgContainer = {
-    height:'337px',
-    overflow:'hidden'
+    height: '337px',
+    overflow: 'hidden'
 };
 
 const imageStyle = {

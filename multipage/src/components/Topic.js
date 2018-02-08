@@ -23,6 +23,7 @@ class Topic extends Component {
         const match = this.props.match;
         return (
             <div className="topic">
+                {/*<header>okokok</header>*/}
                 <div className="submenu">
                     <SubMenu match={match}/>
                 </div>

@@ -16,7 +16,7 @@ class SubMenu extends Component {
         ];
 
         return (
-            tab.map(e => <li><NavLink to={e.url} replace>{e.title}</NavLink></li>)
+            tab.map((e,i) => <li><NavLink  activeStyle={{fontWeight: 'bold', color: '#333', marginLeft:'10px'}} key={i} to={e.url} replace>{e.title}</NavLink></li>)
         )
     }
     render() {

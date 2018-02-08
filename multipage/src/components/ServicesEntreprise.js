@@ -13,10 +13,8 @@ class ServiceE extends Component {
                 <Route exact path={match.url} render={() => (
                     <div className="se_container">
                         <div className="img_container"/>
-                        <div className="leftMenu">
-
+                        <div className="right_menu">
                             <SEMenu match={match}/>
-
                         </div>
                     </div>
                 )}/>
