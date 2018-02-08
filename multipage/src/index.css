@@ -160,8 +160,6 @@ ul {
 }
 
 .topic .submenu .content .bg {
-    position: absolute;
-    background: rgba(242, 178, 42, 0.7);
     height: 75%;
     width: 180px;
     left: -20px;

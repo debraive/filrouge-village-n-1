@@ -6,7 +6,6 @@ import {NavLink} from 'react-router-dom'
 class SEMenuu extends Component {
 
     linksArray() {
-        let match = this.props.match;
         let tab = [
             {url: '/qui-sommes-nous/Qui_Sommes_Nous', title: 'Qui Sommes Nous'},
             {url: '/qui-sommes-nous/Historique', title: 'Historique'},

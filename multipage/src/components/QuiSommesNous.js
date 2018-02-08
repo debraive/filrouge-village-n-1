@@ -18,9 +18,13 @@ class QuiSommesNous extends Component {
                 <Route exact path={match.url} render={() => (
                     <div className="se_container">
                         <div className="img_container"/>
-                        <div className="right_menu">
+                        <div className="se_container">
+
+                            <div className="right_menu">
                                 <QSMMenu match={match}/>
+                            </div>
                         </div>
+
                     </div>
                 )}/>
                 <Route path={`${match.url}/:topicId`} component={TopicQSM}/>

@@ -12,7 +12,7 @@ class Topic extends Component {
 
     renderComponent(link) {
         switch (link) {
-            case "QSM":
+            case "Qui_Sommes_Nous":
                 return <QSM/>;
             case "Historique":
                 return <Historique/>;
@@ -20,9 +20,9 @@ class Topic extends Component {
                 return <Departements/>;
             case "Partenaires":
                 return <Partenaires/>;
-            case "Entités juridiques":
+            case "Entités_juridiques":
                 return <Juridique/>;
-            case "Nous soutenir":
+            case "Nous_soutenir":
                 return <Soutenir/>;
         }
     }
