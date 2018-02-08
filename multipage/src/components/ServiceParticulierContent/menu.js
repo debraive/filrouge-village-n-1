@@ -4,28 +4,44 @@ import {Route,Link} from 'react-router-dom';
 class MenuParti extends Component {
   constructor(props){
     super(props);
-    if (this.props.background=="rouge") {
-      this.state={background:rouge};
-    }else{
-      this.state={background:jaune};
-    }
   }
   render() {
-  return (<div style={this.props.style}>
+  return (<div >
+            <div style={subMenuStyle}>
               <Link to={this.props.match.url+"/jardin"}>Entretien de jardins</Link>
               <Link to={this.props.match.url+"/renovation"}>Service de rénovation</Link>
               <Link to={this.props.match.url+"/taxi-social"}>Taxi social</Link>
               <Link to={this.props.match.url+"/titres-services"}>titres-services</Link>
-              <Link to={this.props.match.url+"/Zones desservies"}>Zones desservies</Link>
+              <Link to={this.props.match.url+"/Zones-desservies"}>Zones desservies</Link>
             </div>
+          </div>
             );
   }
 }
-export default MenuParti;
 const jaune={
   backgroundColor:'yellow'
 }
 const rouge={
   backgroundColor:'red'
 }
-console.log(this.rouge);
+
+const containerStyle = {
+    display: 'flex',
+    flexDirection: "row",
+    margin: '0 auto',
+    position: 'relative',
+    alignItems: 'center',
+    justifyContent: 'center',
+    maxWidth: '860px',
+    lineHeight: "160%",
+};
+
+
+const subMenuStyle = {
+    position: 'absolute',
+    left: '-150px',
+    top:'50vh',
+    transform:'translateY(-50%)',
+    width: '180px'
+};
+export default MenuParti;

@@ -25,9 +25,3 @@ class ServiceE extends Component {
 }
 
 export default ServiceE;
-
-
-
-
-
-
