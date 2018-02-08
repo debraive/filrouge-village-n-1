@@ -5,6 +5,7 @@ import Departements from "./QSMContent/Departements";
 import Partenaires from "./QSMContent/Partenaires";
 import Juridique from "./QSMContent/Juridique";
 import Soutenir from "./QSMContent/Soutenir";
+import QSMSubMenu from "./SubCategoriesMenus/QSMSubMenu";
 
 
 class Topic extends Component {
@@ -30,8 +31,13 @@ class Topic extends Component {
     render() {
         const match = this.props.match;
         return (
-            <div>
-                {this.renderComponent(match.params.topicId)}
+            <div className="topic">
+                <div className="submenu">
+                    <QSMSubMenu match={match}/>
+                </div>
+                <div>
+                    {this.renderComponent(match.params.topicId, match)}
+                </div>
             </div>
         )
     }

@@ -8,13 +8,13 @@ class Topic extends Component {
     renderComponent(link, match) {
         switch (link) {
             case "Renovation":
-                return <Renovation match={match}/>;
+                return <Renovation />;
             case "Cleaning":
-                return <Cleaning match={match}/>;
+                return <Cleaning />;
             case "backOffice":
-                return <Renovation match={match}/>;
+                return <Renovation />;
             case "horticulture":
-                return <Renovation match={match}/>;
+                return <Renovation />;
         }
     }
 
@@ -23,7 +23,6 @@ class Topic extends Component {
         const match = this.props.match;
         return (
             <div className="topic">
-                {/*<header>okokok</header>*/}
                 <div className="submenu">
                     <SubMenu match={match}/>
                 </div>
