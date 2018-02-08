@@ -4,7 +4,7 @@ import React, {Component} from "react"
 class Cleaning extends Component {
     render() {
         return (
-            <div style={container}>
+            <div style={container} className="sub_category">
                 <h1>Cleaning</h1>
                 <h2> Un service de nettoyage sur mesure pour votre entreprise. Faites appel à notre équipe de
                     professionnels
@@ -13,7 +13,10 @@ class Cleaning extends Component {
                 <div style={imgContainer}>
                     <img style={imageStyle} src="/images/renovation.jpeg" alt=""/>
                 </div>
-                <h3>Nos services</h3>
+                <h3 className="subtitle">
+                    Nos Services
+                    <div className="underline"></div>
+                </h3>
                 <ul>
                     <li>- Nettoyage de bureaux, communs d'immeuble, show-rooms, espaces de stockage, commerces
                         pharmacies
@@ -43,19 +46,20 @@ class Cleaning extends Component {
         )
     }
 }
-const container = {
-    maxWidth:'600px',
-}
 
-const imgContainer =
-{
-    height:'337px',
-    overflow:'hidden'
-}
+const container = {
+    maxWidth: '600px',
+};
+
+const imgContainer = {
+    height: '337px',
+    overflow: 'hidden'
+};
 
 const imageStyle = {
     width: '120%',
     transform: 'translateX(-10%)',
     borderRadius: '3px'
-}
+};
+
 export default Cleaning;

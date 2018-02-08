@@ -1,39 +1,43 @@
 import {Component} from "react"
 import React from "react"
-import {Link} from 'react-router-dom'
+import {NavLink, NavNavLink} from 'react-router-dom'
 
-const SEMenu = ({match}) => (
-    <div>
-        <h2>Services Aux Entreprises</h2>
-        <ul>
-            <li>
-                <Link
-                    to={`${match.url}/Activite_Industrielles`} replace>
-                    Activités industrielles
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/Installations`} replace>
-                    Installations industrielles
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/Back_Office_Services`} replace>
-                    Back Office Services
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/Renovation`} replace>
-                    Rénovation
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/Cleaning`} replace>
-                    Cleaning
-                </Link>
-            </li>
-        </ul>
-    </div>
-)
 
-export default SEMenu
+class SEMenuu extends Component {
+
+    linksArray() {
+        let match = this.props.match;
+        let tab = [
+            {url: 'Activite_Industrielles', title: 'Activités industrielles'},
+            {url: 'Installations', title: 'Installations'},
+            {url: 'Back_Office_Services', title: 'Back Office Service'},
+            {url: 'Renovation', title: 'Renovation'},
+            {url: 'Cleaning', title: 'Cleaning'}
+        ];
+
+        return (
+            tab.map((e, i) => <li>
+                <NavLink key={i}
+                         to={`${match.url}/${e.url}`}
+                         replace>{e.title} </NavLink></li>)
+        )
+    }
+
+    render() {
+        return (
+            <div className="se_menu">
+                <h2 className="category_title">Services Aux Entreprises</h2>
+                <div className="text">
+                    <p>Nos entreprises vous offrent des services compétitifs et personnalisés à grande
+                        échelle.
+                        Travailler avec le Village n°1, c'est aussi faire un choix éthique.</p>
+                </div>
+                <ul className="category_menu">
+                    {this.linksArray()}
+                </ul>
+            </div>
+        )
+    }
+}
+
+export default SEMenuu
