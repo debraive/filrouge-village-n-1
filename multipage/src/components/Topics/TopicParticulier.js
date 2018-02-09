@@ -1,20 +1,23 @@
 import React, {Component} from 'react';
-import Renovation from "./ServicesEntrepriseContent/Renovation"
-import Cleaning from "./ServicesEntrepriseContent/Cleaning";
-import SubMenu from "./SubCategoriesMenus/SESubMenu";
+import Renovation from "../ServiceParticulierContent/renovation"
+import Jardin from '../ServiceParticulierContent/jardin.js'
+import MenuParti from '../CategoriesMenus/SPMenu'
+import Taxi from '../ServiceParticulierContent/taxi.js';
+import Zone from '../ServiceParticulierContent/zone.js';
+import SubMenuParti from "../SubCategoriesMenus/SPSubMenu";
 
-class Topic extends Component {
+class TopicParticuler extends Component {
 
     renderComponent(link, match) {
         switch (link) {
-            case "Renovation":
+            case "jardin":
+                return <Jardin/>;
+            case "renovation":
                 return <Renovation />;
-            case "Cleaning":
-                return <Cleaning />;
-            case "backOffice":
-                return <Renovation />;
-            case "horticulture":
-                return <Renovation />;
+            case "taxi-social":
+                return <Taxi />;
+            case "Zones-desservies":
+                return <Zone />;    
         }
     }
 
@@ -24,9 +27,9 @@ class Topic extends Component {
         return (
             <div className="topic">
                 <div className="submenu">
-                    <SubMenu match={match}/>
+                    <SubMenuParti/>
                 </div>
-                <div>
+                <div style={{maxWidth:'600px'}}>
                     {this.renderComponent(match.params.topicId, match)}
                 </div>
             </div>
@@ -34,7 +37,7 @@ class Topic extends Component {
     }
 }
 
-export default Topic;
+export default TopicParticuler;
 
 
 const containerStyle = {

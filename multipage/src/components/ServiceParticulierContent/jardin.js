@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import MenuParti from './menu.js'
+import MenuParti from '../CategoriesMenus/SPMenu.js'
 
 
 class Jardin extends Component{

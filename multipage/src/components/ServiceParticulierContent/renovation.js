@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Route,Link} from 'react-router-dom';
-import MenuParti from './menu.js'
+import MenuParti from '../CategoriesMenus/SPMenu.js'
 
 class Renovation extends Component {
   render(){

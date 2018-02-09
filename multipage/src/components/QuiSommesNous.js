@@ -1,6 +1,6 @@
 import {Component} from "react"
 import React from "react"
-import TopicQSM from './TopicQSM';
+import TopicQSM from './Topics/TopicQSM';
 import {
     Link,
     Route

@@ -3,7 +3,7 @@ import React from "react"
 import {NavLink, NavNavLink} from 'react-router-dom'
 
 
-class SEMenuu extends Component {
+class SEMenu extends Component {
 
     linksArray() {
         let match = this.props.match;
@@ -26,7 +26,10 @@ class SEMenuu extends Component {
     render() {
         return (
             <div className="se_menu">
-                <h2 className="category_title">Services Aux Entreprises</h2>
+                <div className="category_title_container">
+                    <div className="category_title_bg"/>
+                    <h2 className="category_title">Services Aux Entreprise</h2>
+                </div>
                 <div className="text">
                     <p>Nos entreprises vous offrent des services compétitifs et personnalisés à grande
                         échelle.
@@ -40,4 +43,4 @@ class SEMenuu extends Component {
     }
 }
 
-export default SEMenuu
+export default SEMenu

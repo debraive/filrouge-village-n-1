@@ -25,7 +25,10 @@ class QSMMenu extends Component {
     render() {
         return (
             <div className="se_menu">
-                <h2 className="category_title">Qui Sommes Nous ?</h2>
+                <div className="category_title_container">
+                    <div className="category_title_bg"/>
+                    <h2 className="category_title">Qui Sommes Nous ?</h2>
+                </div>
                 <div className="text">
                     <p>Village n°1 Entreprises soutient les personnes en situation de handicap et/ou exclues du circuit
                         traditionnel du travail par la création d'emploi.</p>

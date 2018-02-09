@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import QSM from "./QSMContent/QSM";
-import Historique from "./QSMContent/Historique";
-import Departements from "./QSMContent/Departements";
-import Partenaires from "./QSMContent/Partenaires";
-import Juridique from "./QSMContent/Juridique";
-import Soutenir from "./QSMContent/Soutenir";
-import QSMSubMenu from "./SubCategoriesMenus/QSMSubMenu";
+import QSM from "../QSMContent/QSM";
+import Historique from "../QSMContent/Historique";
+import Departements from "../QSMContent/Departements";
+import Partenaires from "../QSMContent/Partenaires";
+import Juridique from "../QSMContent/Juridique";
+import Soutenir from "../QSMContent/Soutenir";
+import QSMSubMenu from "../SubCategoriesMenus/QSMSubMenu";
 
 
 class Topic extends Component {

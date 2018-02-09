@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import Topic from './Topic';
+import Topic from './Topics/TopicEntreprise';
 import {Route} from 'react-router-dom'
 import SEMenu from "./CategoriesMenus/SEMenu";
 

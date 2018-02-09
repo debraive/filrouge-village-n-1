@@ -7,7 +7,57 @@ body {
     color: #333333;
 }
 
-.se_main_container {
+.accueil .container header {
+    background: url('/images/building_3.jpg');
+    height: 70vh;
+}
+
+.accueil .contenu {
+    background: #085394;
+    padding: 30px 0;
+}
+
+.accueil .intro{
+    width:80%;
+    text-align: center;
+    margin: 0 auto;
+    max-width:1000px;
+    font-size:25px;
+    line-height:150%;
+    padding-top:130px;
+}
+
+.accueil .intro p {
+   color: white;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blocks .block hr {
+    background: white;
+    width: 60px;
+    height: 0.2px;
+    border: none;
+}
+
+.blocks .block h3 {
+    color: white;
+}
+
+.blocks .block p {
+    color: #6FA8DC;
+}
+
+.blocks .block {
+    text-align: center;
+    width: 30%;
+    max-width: 350px;
 }
 
 .se_container {
@@ -48,8 +98,24 @@ body {
 }
 
 .category_title {
+    text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
-    font-size: 40px;
+    font-size: 64px;
+    line-height: 78px;
+    max-width: 470px;
+}
+
+.category_title_container {
+    position: relative;
+}
+
+.category_title_bg {
+    background: #f2b22a;
+    height: 156px;
+    z-index: -5;
+    width: 165px;
+    position: absolute;
+    left: 0;
 }
 
 .category_menu {
@@ -58,6 +124,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.category_menu li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.category_menu li a:visited {
+    color: #333333;
+}
+
+.category_menu li a:hover {
+    color: #f2b22a;;
 }
 
 .sub_category h1 {
@@ -90,7 +169,7 @@ body {
 }
 
 .links li a:hover {
-    color: #004BA3;
+    color: #f2b22a;;
 }
 
 .underline {
@@ -132,7 +211,7 @@ ul {
     width: 80%;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 640px;
+    max-width: 720px;
 }
 
 .topic {
@@ -196,11 +275,22 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.contact .container {
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contact .form_container {
     background-color: #f2f2f2;
     padding: 20px;
-    max-width:500px;
-    margin: 0 auto;
+    max-width: 500px;
+}
+
+.contact .right_info {
+    margin-left: 30px;
+    max-width: 600px;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1200px) {
@@ -238,6 +328,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 830px) {
+    .contact{
+        flex-direction:column;
+        align-items: center;
+    }
     nav {
         flex-direction: column;
     }

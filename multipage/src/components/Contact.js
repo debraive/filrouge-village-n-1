@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact">
-                <div class="container">
+                <div class="form_container">
                     <h2>Notre site</h2>
 
                     <ul>
@@ -25,8 +25,9 @@ class Contact extends Component {
                         <input type="submit" value="Submit"/>
                     </form>
 
+                </div>
+                <div className="right_info">
                     <h2>Coordonnées de nos activités</h2>
-
                     <ul>
                         <li>Coordonnées générales</li>
                         <li>tél: 02 386 06 11 - fax: 02 386 06 10</li>
@@ -59,7 +60,7 @@ class Contact extends Component {
                         <li> tél: 0471/50.98.45</li>
                         <li> mail: nettoyage@levillage1.be</li>
                     </ul>
-                
+
                     POUR POSTULER : veuillez ne pas utiliser les emails et formulaires ci-dessus mais vous rendre sur la
                     page suivante offres-d-emploi
                     Nos entités juridiques
