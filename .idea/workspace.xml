@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="820e0fa1-1ad3-4532-b991-f34e53b8b7d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multipageDeployed/static/css/main.8e2bcbdb.css" afterPath="$PROJECT_DIR$/multipageDeployed/static/css/main.8e2bcbdb.css" />
-    </list>
+    <list default="true" id="820e0fa1-1ad3-4532-b991-f34e53b8b7d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +55,8 @@
           <file leaf-file-name="accueil.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/multipage/assets/css/accueil.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="23">
+                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -144,7 +140,7 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/multipage/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
+                <state relative-caret-position="373">
                   <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
                   <folding>
                     <marker date="1518148251125" expanded="true" signature="84:91" ph="{&quot;g&quot;: &quot;^2.0.1&quot;...}" />
@@ -374,12 +370,12 @@
       <workItem from="1518111777783" duration="6827000" />
       <workItem from="1518119098802" duration="2377000" />
       <workItem from="1518132162060" duration="83000" />
-      <workItem from="1518132338005" duration="12535000" />
+      <workItem from="1518132338005" duration="12754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128382000" />
+    <option name="totallyTimeSpent" value="128601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="887" y="0" width="1040" height="1015" extended-state="0" />
@@ -793,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multipage/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="373">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <marker date="1518148251125" expanded="true" signature="84:91" ph="{&quot;g&quot;: &quot;^2.0.1&quot;...}" />
@@ -803,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multipage/assets/css/accueil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
