@@ -2,19 +2,26 @@
 
 @section ('content')
 
-     <div class="col-md-8 blog-main">
+@if(Auth::check())
+<div class="nav">
+  <h1>Mon Compte</h1>
+  <a href="/posts/create">Ajouter un article</a>
+  <a href="/logout">Se déconnecter</a>
+</div>
+@endif
+  <div class="title">
+    <h1>Nos réalisation</h1>
+  </div>
+
+
        @foreach ($posts as $post)
 
        @include ('posts.post')
 
        @endforeach
 
-       </article>
-       <nav class="blog-pagination">
-         <a class="btn btn-outline-primary" href="#">Older</a>
-         <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-       </nav>
 
-     </div><!-- /.blog-main -->
+
+
 
 @endsection

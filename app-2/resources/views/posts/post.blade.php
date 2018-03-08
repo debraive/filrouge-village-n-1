@@ -1,4 +1,37 @@
-<div class="blog-post">
+
+
+
+
+      <div class="post">
+      <div class="post-img">
+        <img src="{{asset('images/' . $post->image)}}" alt="">
+      </div>
+      <div class="post-contain">
+      <h1>{{$post->title}}</h1>
+        <p class="blog-post-meta">{{$post->created_at->toFormattedDateString()}}</p>
+        <ul class="list-group">
+
+          <li class="list-group-item">
+
+            {{$post->body}}
+          </li>
+
+        </ul>
+          @if(Auth::check())
+          <div class="edit">
+          <a href="{{ route('posts.edit', $post->id) }}">Edit</a>
+          </div>
+            <div class="delete">
+            {!! Form::open(['route' => ['posts.destroy', $post->id],'method' => 'delete']) !!}
+            {{ Form::submit('Delete', ['class' => 'btn-delete'])}}
+            {!! Form::close() !!}
+        </div>
+          @endif
+        </div>
+      </div>
+
+
+<!-- <div class="blog-post">
 <img src="{{asset('images/' . $post->image)}}" alt="">
   <a href="/posts/{{$post->id}}">
 
@@ -10,4 +43,4 @@
 
   {{$post->body}}
 
-</div><!-- /.blog-post -->
+</div><!- /.blog-post -->
