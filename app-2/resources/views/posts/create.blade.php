@@ -31,7 +31,7 @@
               <input type="file" name="exampleInputFile" id="exampleInputFile">
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Publier</button>
+                <button type="submit" class="login login-submit">Publier</button>
             </div>
           </form>
     </div>

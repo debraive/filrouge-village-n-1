@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>Village N°1 | News</title>
 
     <!-- Bootstrap core CSS -->
     @yield('stylesheets')

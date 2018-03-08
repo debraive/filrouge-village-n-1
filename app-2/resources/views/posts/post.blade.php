@@ -19,11 +19,14 @@
         </ul>
           @if(Auth::check())
           <div class="edit">
-          <a href="{{ route('posts.edit', $post->id) }}">Edit</a>
+            {!! Form::open(['route' => ['posts.edit', $post->id],'method' => 'get']) !!}
+            {{ Form::submit('Editer', ['class' => 'login login-submit'])}}
+            {!! Form::close() !!}
+          <!-- <a href="{{ route('posts.edit', $post->id) }}">Edit</a> -->
           </div>
             <div class="delete">
             {!! Form::open(['route' => ['posts.destroy', $post->id],'method' => 'delete']) !!}
-            {{ Form::submit('Delete', ['class' => 'btn-delete'])}}
+            {{ Form::submit('Supprimer', ['class' => 'login login-submit'])}}
             {!! Form::close() !!}
         </div>
           @endif
