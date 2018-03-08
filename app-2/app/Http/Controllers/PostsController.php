@@ -35,9 +35,39 @@ class PostsController extends Controller
        return view('posts.create');
     }
 
-    public function delete()
+    public function destroy($id)
     {
-      return view('posts.delete');
+      $post = Post::find($id);
+      $post->delete();
+      return redirect()->route('posts.index');
+    }
+    public function edit($id)
+    {
+        //Find a post in the database and save it as variable.
+        $post = Post::find($id);
+
+        //Return the view and passe the variable created
+        return view('posts.edit')->withPost($post);
+    }
+    public function update(Request $request, $id)
+    {
+      //Validate the date
+      $this->validate($request, array(
+              'title' => 'required|max:255',
+              'body' => 'required'
+      ));
+      //Save the data to the database
+      $post = Post::find($id);
+
+      $post->title = $request->input('title');
+      $post->body = $request->input('body');
+
+      $post->save();
+
+
+      //Redirect with flash::Data to posts.show
+      return redirect()->route('posts.index', $post->id);
+
     }
 
     public function store(Request $request)
@@ -55,13 +85,15 @@ class PostsController extends Controller
       $post->user_id = auth()->id();
 
 
-
+      if ($request->hasFile('exampleInputFile'))
+      {
         $image = $request->file('exampleInputFile');
         $filename = time() . '.' . $image->getClientOriginalExtension();
         $location = public_path('images/' . $filename);
         Image::make($image)->resize(800, 400)->save($location);
         $post->image = $filename;
-      
+      }
+
 
       $post->save();
         //
